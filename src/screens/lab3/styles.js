@@ -4,10 +4,10 @@ export const styles = StyleSheet.create({
     container: {
       flex: 1,
       padding: 24,
-      backgroundColor: 'red',
+      backgroundColor: 'pink',
     },
     text: {
       fontSize: 30,
-      color: '#000',
+      color: '#FF00FF',
     },
   });
