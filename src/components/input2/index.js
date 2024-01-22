@@ -39,7 +39,7 @@
 import React from "react";
 import {styles} from "./styles"
 import { View,SafeAreaView,TextInput,Text, Pressable } from "react-native";
-const Input = () => {
+const Inputx = () => {
   return (
 <SafeAreaView>
       <TextInput
@@ -47,10 +47,19 @@ const Input = () => {
         style={styles.inputx}
       />
        <TextInput
+       placeholder="Email"
+        style={styles.inputx}
+      />
+       <TextInput
        placeholder="Password"
         style={styles.inputx}
       />
+      <TextInput
+       placeholder="Comfirm Password"
+        style={styles.inputx}
+      />
+
     </SafeAreaView>
      );
      };
-export default Input;
+export default Inputx;
