@@ -6,6 +6,9 @@ import SigUp from './src/screens/auth/SingUp';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Lab4 from './src/screens/auth/lab4';
+import Lab5 from './src/screens/Lab5';
+import Lab5_3 from './src/screens/Lab5_3';
+import Lab6 from './src/screens/lab6';
 
 const Stack = createNativeStackNavigator()
 const App = () => {
@@ -18,7 +21,11 @@ const App = () => {
   //   </Stack.Navigator>
   //   </NavigationContainer>
   // <Lab3></Lab3>
-  <Lab4></Lab4>
+  // <Lab4></Lab4>
+  // <Lab5></Lab5>
+  <Lab5_3></Lab5_3>
+    // <Lab6></Lab6>
+  
   );
   
 };
