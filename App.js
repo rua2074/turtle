@@ -9,6 +9,8 @@ import Lab4 from './src/screens/auth/lab4';
 import Lab5 from './src/screens/Lab5';
 import Lab5_3 from './src/screens/Lab5_3';
 import Lab6 from './src/screens/lab6';
+import Lab7 from './src/screens/Lab7_1';
+import TopTab from './src/screens/Lab7_1/topMenu';
 
 const Stack = createNativeStackNavigator()
 const App = () => {
@@ -23,8 +25,10 @@ const App = () => {
   // <Lab3></Lab3>
   // <Lab4></Lab4>
   // <Lab5></Lab5>
-  <Lab5_3></Lab5_3>
-    // <Lab6></Lab6>
+  // <Lab5_3></Lab5_3>
+  // <Lab6></Lab6>
+  // <Lab7></Lab7>
+ <TopTab/>
   
   );
   

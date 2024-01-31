@@ -39,5 +39,6 @@ const Lab6 = ()=>{
            </Drawer.Navigator>
         </NavigationContainer>
     );
+
 };
 export default Lab6;
