@@ -8,7 +8,7 @@ const AddUser = () =>{
     const[birthday,setBirthday] = useState('');
 
     const saveDate = async()=>{
-        const url ='http://10.0.2.2:3000/users';
+        const url ='https://65d4020b522627d50109beab.mockapi.io/users';
         let result = await fetch(url,{
             method:'POST',
             headers:{'Content-Type':'application/json'},

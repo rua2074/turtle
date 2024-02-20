@@ -11,7 +11,7 @@ const ListUser = ({ navigation }) => {
     const [selectedUser, setSelectedUser] = useState(undefined);
 
     const getAPI = async () => {
-        const url = 'http://10.0.2.2:3000/users';
+        const url = 'https://65d4020b522627d50109beab.mockapi.io/users';
         let result = await fetch(url);
         result = await result.json();
         if (result) {
@@ -20,7 +20,7 @@ const ListUser = ({ navigation }) => {
 
     };
     const handleDelete = async id => {
-        const url = 'http://10.0.2.2:3000/users';
+        const url = 'https://65d4020b522627d50109beab.mockapi.io/users';
         let result = await fetch(`${url}/${id}`, {
             method: 'Delete',
         });
