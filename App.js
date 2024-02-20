@@ -2,7 +2,7 @@ import React from 'react';
 import Lab3 from './src/screens/lab3'
 import Splash from './src/screens/auth/Splash';
 import Login from './src/screens/auth/Login';
-import SigUp from './src/screens/auth/SingUp';
+import SigUp from './src/screens/auth/SingUp';  
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Lab4 from './src/screens/auth/lab4';
@@ -11,6 +11,7 @@ import Lab5_3 from './src/screens/Lab5_3';
 import Lab6 from './src/screens/lab6';
 import Lab7 from './src/screens/Lab7_1';
 import TopTab from './src/screens/Lab7_1/topMenu';
+import Crud from './src/screens/Lab8/Crud';
 
 const Stack = createNativeStackNavigator()
 const App = () => {
@@ -28,8 +29,9 @@ const App = () => {
   // <Lab5_3></Lab5_3>
   // <Lab6></Lab6>
   // <Lab7></Lab7>
- <TopTab/>
-  
+  //  <TopTab/>
+
+  <Crud></Crud>
   );
   
 };
